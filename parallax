@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Style for the overall page */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style for each section */
+        .section {
+            height: 100vh;
+            background-attachment: fixed; /* Create the parallax effect */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Background images for each section */
+        .section1 {
+            background-image: url('image1.jpg');
+        }
+
+        .section2 {
+            background-image: url('image2.jpg');
+        }
+
+        .section3 {
+            background-image: url('image3.jpg');
+        }
+
+        .section4 {
+            background-image: url('image4.jpg');
+        }
+
+        /* Additional styling for text */
+        .section h1 {
+            font-size: 3rem;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Add more custom styles as needed */
+
+    </style>
+</head>
+<body>
+
+<!-- Section 1 -->
+<div class="section section1">
+    <h1>Section 1</h1>
+    <p>Text for Section 1</p>
+</div>
+
+<!-- Section 2 -->
+<div class="section section2">
+    <h1>Section 2</h1>
+    <p>Text for Section 2</p>
+</div>
+
+<!-- Section 3 -->
+<div class="section section3">
+    <h1>Section 3</h1>
+    <p>Text for Section 3</p>
+</div>
+
+<!-- Section 4 -->
+<div class="section section4">
+    <h1>Section 4</h1>
+    <p>Text for Section 4</p>
+</div>
+
+</body>
+</html>
